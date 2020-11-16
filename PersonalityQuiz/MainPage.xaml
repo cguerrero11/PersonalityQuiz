@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalityQuiz.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="BlanchedAlmond" Padding="30" CornerRadius="100" BorderColor="Black">
+            <Label Text="Which Enter the Gungeon character are you?" HorizontalTextAlignment="Center" TextColor="DarkGoldenrod"
+                   FontSize="36"/>
+                   <!--FontFamily="{StaticResource NormalFont}"--> 
+                   
+
+        </Frame>
+        <Frame BackgroundColor="BlanchedAlmond" Padding="24" CornerRadius="100" BorderColor="Black" HasShadow="True">
+            <Label Text="Question goes right here." HorizontalTextAlignment="Center" TextColor="Black" FontSize="18" x:Name="question"/>
+
+        </Frame>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+            <Button Text="True" Margin="45" Padding="30,0,30,0" 
+                    BorderColor="AliceBlue" BorderWidth="1"  BackgroundColor="AntiqueWhite" Clicked="ClickedTrue"/>
+            <Button Text="False" Margin="45" Padding="30,0,30,0" 
+                    BorderColor="AliceBlue" BorderWidth="1" BackgroundColor="AntiqueWhite"/>
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

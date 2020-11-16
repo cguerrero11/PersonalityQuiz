@@ -1,0 +1,14 @@
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\bin\Debug\netstandard2.0\PersonalityQuiz.deps.json
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\bin\Debug\netstandard2.0\PersonalityQuiz.dll
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\bin\Debug\netstandard2.0\ref\PersonalityQuiz.dll
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\bin\Debug\netstandard2.0\PersonalityQuiz.pdb
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\PersonalityQuiz.csprojAssemblyReference.cache
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\PersonalityQuiz.AssemblyInfoInputs.cache
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\PersonalityQuiz.AssemblyInfo.cs
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\PersonalityQuiz.csproj.CoreCompileInputs.cache
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\PersonalityQuiz.dll
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\ref\PersonalityQuiz.dll
+C:\Users\coolc\Desktop\coding stuff\PersonalityQuiz\PersonalityQuiz\PersonalityQuiz\obj\Debug\netstandard2.0\PersonalityQuiz.pdb
