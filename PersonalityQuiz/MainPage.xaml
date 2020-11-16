@@ -17,9 +17,9 @@
         </Frame>
         <StackLayout Orientation="Horizontal" VerticalOptions="Center">
             <Button Text="True" Margin="45" Padding="30,0,30,0" 
-                    BorderColor="AliceBlue" BorderWidth="1"  BackgroundColor="AntiqueWhite" Clicked="ClickedTrue"/>
+                    BorderColor="AliceBlue" BorderWidth="1"  BackgroundColor="AntiqueWhite" Clicked="ClickedTrue" x:Name="trueb"/>
             <Button Text="False" Margin="45" Padding="30,0,30,0" 
-                    BorderColor="AliceBlue" BorderWidth="1" BackgroundColor="AntiqueWhite"/>
+                    BorderColor="AliceBlue" BorderWidth="1" BackgroundColor="AntiqueWhite" Clicked="ClickedFalse" x:Name="falseb"/>
 
         </StackLayout>
 

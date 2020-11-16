@@ -21,7 +21,7 @@ namespace PersonalityQuiz
         int marine = 0;
         int pilot = 0;
         bool trueOrFalse;
-        int questionNum;
+        int questionNum = 1;
 
         //void ShowQuestions(object sender, System.EventArgs e)
         //{
@@ -35,44 +35,47 @@ namespace PersonalityQuiz
             switch (questionNum)
             {
                 case 1:
-                    Question1(sender, e, trueOrFalse);
+                    Question1(sender, e, tf);
                     break;
                 case 2:
-                    Question2(sender, e, trueOrFalse);
+                    Question2(sender, e, tf);
                     break;
                 case 3:
-                    Question3(sender, e, trueOrFalse);
+                    Question3(sender, e, tf);
                     break;
                 case 4:
-                    Question4(sender, e, trueOrFalse);
+                    Question4(sender, e, tf);
                     break;
                 case 5:
-                    Question5(sender, e, trueOrFalse);
+                    Question5(sender, e, tf);
                     break;
                 case 6:
-                    Question6(sender, e, trueOrFalse);
+                    Question6(sender, e, tf);
                     break;
                 case 7:
-                    Question7(sender, e, trueOrFalse);
+                    Question7(sender, e, tf);
                     break;
                 case 8:
                     //find result
-                    question.Text = "";
+                    ShowResults(sender, e);
                     break;
+                default:
 
+                    break;
             }
         }
         void ClickedTrue(object sender, System.EventArgs e)
         {
+            questionNum++;
             trueOrFalse = true;
-
-            
+            Score(sender, e, trueOrFalse);
         }
 
         void ClickedFalse(object sender, System.EventArgs e)
         {
+            questionNum++;
             trueOrFalse = false;
-
+            Score(sender, e, trueOrFalse);
         }
 
         void QuestionStart()
@@ -172,7 +175,7 @@ namespace PersonalityQuiz
             }
         }
 
-        void ShowResults()
+        void ShowResults(object sender, System.EventArgs e)
         {
             int win;
             win = (Math.Max(Math.Max(Math.Max(hunter, marine), pilot), convict));
@@ -189,6 +192,9 @@ namespace PersonalityQuiz
             {
                 question.Text = "You are the Convict!";
             }
+
+            trueb.IsVisible = false;
+            falseb.IsVisible = false;
         }
         //void Question8(object sender, System.EventArgs e)
         //{
